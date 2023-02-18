@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Model Hub</title>
+    <link rel="icon" href="images/favicon.ico">
+    
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    
+    <!-- STYLESHEETS (BOOTSTRAP/CSS) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles\style.css">
+      
+    <!-- FONTAWESOME -->
+    <script src="https://kit.fontawesome.com/c36fc57e40.js" crossorigin="anonymous"></script>    
+
+  </head>
+  <body>
+    <!-- TITLE SECTION -->
+      <section id="title">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand brand-title" href="index.html">Model Hub</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#company">Company</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#product">Product</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#blog">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#footer">Connect</a>
+                </li>
+                <button class="btn btn-sm btn-outline-secondary action-button nav-action-button" type="button"><a href="#team"> Join Our Team</a></button>
+            </div>
+          </div>
+        </nav>
+        <div>
+          <video id="background-video" autoplay loop black poster="">
+            <source src="videos/title-video1.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="container-fluid title-text">
+          <h1>The Center of Distinction</h1>
+          <p>bridging academia and industry with education and solutions in engineering, enterprise, and technology. Driving success in a rapidly evolving world.</p>
+          <button class="btn btn-sm btn-outline-secondary action-button" type="button"><a class="button-link" href="#team"> Join Our Team</a></button>
+        </div>
+    </section>
+
+    <!-- COMPANY SECTION -->
+    <section id="company">
+      <div class="container-fluid company-card">
+        <h1>Company</h1>
+        <div class="row">
+          <div class="card col-lg-6">
+            <div class="card-body card-content">
+              <i class="fa-solid fa-laptop-code fa-4x card-icon"></i>                          
+              <h2 class="card-subtitle mb-2">Education</h2>
+              <p class="card-text card-detail">We empower students with the knowledge and skills they need to succeed in our chosen careers. Our unique selling point is our unwavering commitment to quality, ensuring that our students receive the best possible education to help them achieve our goals.</p>
+              <button class="btn btn-sm btn-outline-secondary action-button link-button" type="button">Know More</button>
+            </div>
+          </div>
+          <div class="card col-lg-6">
+            <div class="card-body card-content">
+              <i class="fa-solid fa-compass-drafting fa-4x card-icon"></i>              
+              <h2 class="card-subtitle mb-2">Engineering</h2>
+              <p class="card-text card-detail">We empower students with the knowledge and skills they need to succeed in our chosen careers. Our unique selling point is our unwavering commitment to quality, ensuring that our students receive the best possible education to help them achieve our goals.</p>
+              <button class="btn btn-sm btn-outline-secondary action-button link-button" type="button">Know More</button>
+            </div>
+          </div>
+          <div class="card col-lg-6">
+            <div class="card-body card-content">
+              <i class="fa-solid fa-business-time fa-4x card-icon"></i>              
+              <h2 class="card-subtitle mb-2">Enterprise</h2>
+              <p class="card-text card-detail">We empower students with the knowledge and skills they need to succeed in our chosen careers. Our unique selling point is our unwavering commitment to quality, ensuring that our students receive the best possible education to help them achieve our goals.</p>
+              <button class="btn btn-sm btn-outline-secondary action-button link-button" type="button">Know More</button>
+            </div>
+          </div>
+          <div class="card col-lg-6">
+            <div class="card-body card-content">
+              <i class="fa-solid fa-laptop-code fa-4x card-icon"></i>              
+              <h2 class="card-subtitle mb-2">Technology</h2>
+              <p class="card-text card-detail">We empower students with the knowledge and skills they need to succeed in our chosen careers. Our unique selling point is our unwavering commitment to quality, ensuring that our students receive the best possible education to help them achieve our goals.</p>
+              <button class="btn btn-sm btn-outline-secondary action-button link-button" type="button">Know More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Products Carousel -->
+    <section id="product">
+      <div class="container-fluid">
+        <h2 class="product-title">Our Product</h2>
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+          <div class="overlay"></div>
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner carousel-image">
+            <div class="carousel-item active" data-bs-interval="2000">
+              <img  src="images/education.jpg" class="d-block w-100" alt="education image">
+              <div class="carousel-caption carousel-text">
+                <h5>Education</h5>
+                <p>Some representative placeholder content for the first slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="images/engineering.jpg" class="d-block w-100" alt="engineering image">
+              <div class="carousel-caption carousel-text">
+                <h5>Engineering</h5>
+                <p>Some representative placeholder content for the second slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/enterprise.jpg" class="d-block w-100" alt="enterprise image">
+              <div class="carousel-caption carousel-text">
+                <h5>Enterprise</h5>
+                <p>Some representative placeholder content for the third slide.</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- team application -->
+    <section id="team">
+      <div class="container-fluid">
+        <div class="card text-center">
+          <div class="card-header">
+            <h2>Join a team</h2>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">You have a space here</h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <button class="btn btn-sm btn-outline-secondary action-button team-button" type="button">Be a Part</button>
+          </div>
+          <div class="card-footer text-muted">
+            Model Team
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BLOG SECTION -->
+    <section id="blog">
+      <div class="container-fluid blog-content">
+        <h2>Visit Our Blog</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-100">
+              <a href="#"><img src="images/education.jpg" class="card-img-top" alt="..."></a>
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <button class="btn btn-sm btn-outline-secondary action-button link-button" type="button">Read More</button>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <a href="#"><img src="images/engineering.jpg" class="card-img-top" alt="..."></a>
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                <button class="btn btn-sm btn-outline-secondary action-button link-button" type="button">Read More</button>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <a href="#"><img src="images/enterprise.jpg" class="card-img-top" alt="..."></a>
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                <button class="btn btn-sm btn-outline-secondary action-button link-button" type="button">Read More</button>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+      <!-- FOOTER SECTION -->
+    <section id="footer">
+      <div class="container-fluid">
+        <footer class="row footer-item">
+          <h3>Connect with us</h3>
+          <div class="col-lg-12 social-icon">
+          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="#"><i class="fa-brands fa-github"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <div class="col-lg-12 copyright">
+          <i class="fa-regular fa-copyright"></i>
+          <span>Copyright 2023</span> <a class="foot-brand" href="#"><span>Model Hub</span></a>
+        </div>
+        </footer>
+      </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>

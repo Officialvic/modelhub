@@ -1,0 +1,262 @@
+:root {
+    --alpha: #9d0b0b;
+    --basic: #da2d2d;
+    --light: #fff;
+    --blurr: #b8b8b8;
+    --black: #000;
+    --leadfont: 'Montserrat', sans-serif;
+    --otherfont: 'Ubuntu', sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: var(--leadfont);
+}
+
+/****** TITLE SECTION ******/
+nav{
+    font-family: var(--leadfont);
+}
+
+.nav-item {
+    padding: 0 2rem;
+}
+.nav-container {
+    padding: 0 15%;
+}
+.container-fluid {
+    padding: 3% 15%;
+}
+
+
+.brand-title {
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.action-button{
+    color: var(--light);
+    padding: 0.5rem 1.5rem;
+    border-radius: 2rem;
+}
+.action-button:hover{
+    background-color: var(--alpha);
+}
+
+video {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -2;
+}
+
+.title-text {
+    color: var(--light);
+    text-align: center;
+    padding: 10% 15%;
+    margin-top: 1.5rem;
+}
+
+.action-button a {
+    color: var(--light);
+    text-decoration: none;
+}
+
+
+.title-text h1 {
+    font-weight: 700;
+}
+.title-text p {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+.title-text .action-button {
+    padding: 0.5rem 1.5rem;
+    border-radius: 2rem;
+    margin-top: 1.5rem;
+}
+
+
+/******COMPANY SECTION  *******/
+#company {
+    background-color: var(--light);
+    padding: 1.5rem;
+}
+
+.company-card h1{
+    font-weight: 600;
+    color: var(--basic);
+    text-align: center;
+}
+.card {
+    border: none;
+    padding: 2.5rem 2.5rem 0 2.5rem;
+}
+.card-content {
+    text-align: center;
+    padding: 2.5rem 0;
+}
+.card-detail {
+    text-align: justify;
+}
+.card-icon {
+    color: var(--basic);
+}
+h2{
+    padding: 1.5rem 0;
+}
+.link-button{
+    color: var(--black);
+}
+
+/******Product Section  ******/
+#product .container-fluid {
+    padding: 0;
+}
+.overlay {
+    background-image: radial-gradient(var(--alpha), var(--basic), var(--black));
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    opacity: 0.6;
+}
+
+.carousel-caption {
+    position: absolute;
+    z-index: 2;
+    margin: auto;
+
+}
+.carousel-text h5 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.carousel-text p {
+    font-weight: 200;
+}
+
+
+/********TEAM SECTION   ******/
+.card-header h2 {
+    font-weight: 700;
+    color: var(--basic);
+}
+.card-body {
+    padding: 3.5rem 0;
+}
+.team-button {
+    border-color: var(--basic);
+    color: var(--light);
+    padding: 0.5rem 4rem;
+    background-color: var(--basic);
+    font-weight: 600;
+}
+.team-button:hover {
+    background-color: var(--light);
+    color: var(--black);
+    border-color: var(--basic);
+}
+
+/******BLOG SECTION  *****/
+.blog-content h2, .product-title{
+    color: var(--basic);
+    font-weight: 700;
+    text-align: center;
+}
+.card-img-top:hover{
+    /* FLIP AMINATION */
+    /* -webkit-transform: scaleX(-1);
+    transform: scaleX(-1); */
+    animation: shake 0.5s;
+    /* When the animation is finished, start again */
+    animation-iteration-count: infinite;
+  }
+  /* Action at each point of animation */
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
+/******   FOOTER SECTION   ******/
+#footer {
+    background-color: var(--basic);
+    color: var(--light);
+}
+.footer-item h3{
+    text-align: center;
+}
+
+.social-icon {
+    text-align: center;
+    padding: 1.5rem 0;
+    letter-spacing: 0.5rem;
+}
+.social-icon a {
+    color: var(--light);
+}
+.social-icon a:hover {
+    color: var(--blurr);
+}
+
+.copyright {
+    font-size: 0.8rem;
+    font-weight: 100;
+    text-align: center;
+    letter-spacing: 0.1rem;
+    margin-top: 3.5rem;
+}
+
+.foot-brand {
+    color: var(--light);
+    text-decoration: none;
+    padding-left: 2rem;
+}
+
+.foot-brand:hover {
+    color: var(--blurr);
+}
+
+
+/********MEDIA QUERY  ******/
+
+/*********FOR MINI LAPTOP & TABLET  *******/
+@media all and (max-width: 1380px) {
+    .title-text {
+    padding: 5% 15%;
+    margin-top: 0.5rem;
+    }
+
+    .title-text h1 {
+        font-weight: 700;
+    }
+    .title-text p {
+        font-size: 1rem;
+        font-weight: 100;
+    }
+
+    .nav-action-button{
+    display: none;
+    }
+}
+
+/*********FOR MOBILE PHONES *******/
+@media all and (max-width: 880px) { 
+    .title-text h1 {
+        font-weight: 700;
+    }
+    .title-text p {
+        display: none;
+    }
+}
