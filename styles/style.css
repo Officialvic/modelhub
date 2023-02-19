@@ -15,6 +15,10 @@ body{
 }
 
 /****** TITLE SECTION ******/
+#title {
+    margin-bottom: 2rem;
+}
+
 nav{
     font-family: var(--leadfont);
 }
@@ -28,7 +32,6 @@ nav{
 .container-fluid {
     padding: 3% 15%;
 }
-
 
 .brand-title {
     font-weight: 500;
@@ -234,8 +237,8 @@ h2{
 /*********FOR MINI LAPTOP & TABLET  *******/
 @media all and (max-width: 1380px) {
     .title-text {
-    padding: 5% 15%;
-    margin-top: 0.5rem;
+    padding: 2% 15%;
+    margin-top: 0.2rem;
     }
 
     .title-text h1 {
@@ -253,10 +256,22 @@ h2{
 
 /*********FOR MOBILE PHONES *******/
 @media all and (max-width: 880px) { 
+    
+    #title {
+        margin-bottom: 6rem;
+    }
+
     .title-text h1 {
         font-weight: 700;
+        font-size: 15px;
     }
     .title-text p {
         display: none;
+    }
+    .action-button{
+        padding: 0.5rem 1.5rem;
+    }
+    nav.body-bg {
+        background-color: var(--basic);
     }
 }
